@@ -6,7 +6,7 @@ const Flores = () => {
     <div>
       <Navbar /> 
       <h1>Flores</h1>
-      <p>Explore a beleza das flores e descubra informações interessantes sobre elas.</p>
+      <p>Explore a beleza das flores e descubra informações interessantes sobre elas..</p>
     </div>
   );
 }
