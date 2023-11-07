@@ -1,6 +1,5 @@
 import React from "react";
-
-import Navbar from '../app/components/NavbarComponent'; 
+import Navbar from "../app/components/Navbar/NavbarComponent";
 
 export default function Sobre() {
   return (
