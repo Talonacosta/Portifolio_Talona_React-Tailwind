@@ -8,7 +8,7 @@ export default async function Home() {
         <div id="NewRootRoot" className="flex flex-col w-full">
           <div className="relative flex flex-col justify-end pt-40 w-2/3 items-end">
             <div className="border-solid border-[#9400ff]  bg-black absolute top-0 left-10 right-10 flex flex-col gap-3 items-start pt-16 pb-24 pl-24 pr-24 border-8 rounded-lg">
-              <h3 className="text-2xl font-sans absolute top-0 left-0 h-6 w-40">
+              <h3 className="text-2xl absolute top-0 left-0 h-6 w-40">
                 Hi, my name is
               </h3>
               <h1 className="font-poppins text-6xl font-medium text-purple-r absolute top-5 left-0 h-24 w-[406px]">

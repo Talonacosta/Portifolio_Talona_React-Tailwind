@@ -1,14 +1,18 @@
 import React from "react";
-import Navbar from '../app/components/NavbarComponent'; 
+import Navbar from "../app/components/NavbarComponent";
 
 const Projetos = () => {
-  return(
+  return (
     <div>
       <Navbar />
-      <h1>Projetos</h1>
-      <p>Confira alguns dos projetos incríveis que desenvolvifdgdg ao longo do tempo...</p>
+      <h1 className="text-3xl text-purple-r font-poppis text-center m-auto">
+        Aqui estão meu projetos{" "}
+      </h1>
+
+     
+     
     </div>
   );
-}
+};
 
 export default Projetos;
