@@ -12,7 +12,9 @@ export default async function Home() {
         <Navbar/>
         <About/>
         <Skills/>
+        
         <Projects/>
+        <Contact/>
         <Footer/>
       </div>
     </main>

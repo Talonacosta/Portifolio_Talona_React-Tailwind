@@ -2,14 +2,16 @@ import React from "react";
 import Navbar from "../app/components/Navbar/NavbarComponent";
 
 const Flores = () => {
-  return(
+  return (
     <div>
-      <Navbar /> 
+      <Navbar />
       <h1>Flores</h1>
-      <p>Explore a beleza das flores e descubra informações interessantes sobre elas...</p>
+      <p>
+        Explore a beleza das flores e descubra informações interessantes sobre
+        elas...
+      </p>
     </div>
   );
-}
+};
 
-export default Flores
-;
+export default Flores;
