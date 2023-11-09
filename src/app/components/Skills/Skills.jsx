@@ -15,7 +15,7 @@ const Skills = () => {
         </div>
 
         <div class="grid gap-8 sm:grid-cols-2 sm:gap-y-10 xl:grid-cols-3">
-          <div class="relative rounded-lg bg-purple-100 p-5 pt-8">
+          <div class="relative rounded-lg bg-zinc-900 p-5 pt-8">
             <h3 class="mb-3 text-lg font-semibold text-purple-500 md:text-xl">
               How does the product work?
             </h3>
@@ -26,7 +26,7 @@ const Skills = () => {
             </p>
           </div>
 
-          <div class="relative rounded-lg bg-purple-100 p-5 pt-8">
+          <div class="relative rounded-lg bg-zinc-900 p-5 pt-8">
             <h3 class="mb-3 text-lg font-semibold text-purple-500 md:text-xl">
               How does the product work?
             </h3>
@@ -36,7 +36,7 @@ const Skills = () => {
               text.
             </p>
           </div>
-          <div class="relative rounded-lg bg-purple-100 p-5 pt-8">
+          <div class="relative rounded-lg bg-zinc-900 p-5 pt-8">
             <h3 class="mb-3 text-lg font-semibold text-purple-500 md:text-xl">
               How does the product work?
             </h3>
@@ -46,7 +46,7 @@ const Skills = () => {
               text.
             </p>
           </div>
-          <div class="relative rounded-lg bg-purple-100 p-5 pt-8">
+          <div class="relative rounded-lg bg-zinc-900 p-5 pt-8">
             <h3 class="mb-3 text-lg font-semibold text-purple-500 md:text-xl">
               How does the product work?
             </h3>
@@ -56,7 +56,7 @@ const Skills = () => {
               text.
             </p>
           </div>
-          <div class="relative rounded-lg bg-purple-100 p-5 pt-8">
+          <div class="relative rounded-lg bg-zinc-900 p-5 pt-8">
             <h3 class="mb-3 text-lg font-semibold text-purple-500 md:text-xl">
               How does the product work?
             </h3>
@@ -66,7 +66,7 @@ const Skills = () => {
               text.
             </p>
           </div>
-          <div class="relative rounded-lg bg-purple-100 p-5 pt-8">
+          <div class="relative rounded-lg bg-zinc-900 p-5 pt-8">
             <h3 class="mb-3 text-lg font-semibold text-purple-500 md:text-xl">
               How does the product work?
             </h3>

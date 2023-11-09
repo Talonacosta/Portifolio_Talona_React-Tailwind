@@ -6,11 +6,11 @@ export default function Links() {
     <div>
       <Navbar />
       <h1 className="text-3xl text-purple-r my-4 text-center">Meus Links</h1>
-      <p className="text-1xl text-purple-r my-4 text-center  ">Aqui estão alguns links importantes para me encontrar online.</p>
+      <p className="text-1xl text-zinc-100 my-4 text-center  ">Aqui estão alguns links importantes para me encontrar online.</p>
       <div id="links" className="max-w-[675px] mx-auto">
         <a
           className="link border-2 rounded-lg rounded-10 text-lg font-roboto text-center block mx-10 my-3 p-2 text-decoration-none tap-highlight-transparent transition duration-300 bg-transparent"
-          href="https://github.com/Talonaa"
+          href="https://github.com/Talonacosta"
           target="_blank"
         >
           Github
@@ -67,7 +67,7 @@ export default function Links() {
         </a>
       </div>
 
-      <div id="hashtag" className="text-2xl font-bold text-center my-4">
+      <div id="hashtag" className="text-2xl font-normal text-center my-4">
         #Flower❤
       </div>
     </div>

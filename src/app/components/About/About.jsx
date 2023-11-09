@@ -1,10 +1,14 @@
+import React from "react";
+
+import Link from "next/link";
+
 const About = () => {
   return (
     <>
       <div className="flex flex-col w-full">
         <h3 className="text-2xl h-6 pl-10">Oi, meu nome é</h3>
         <h1 className="font-poppins text-6xl font-medium text-purple-r pl-10">
-          Talona Costa.
+          Tales Costa.
         </h1>
         <h2 className="font-poppins text-4xl left pl-12">
           Eu construo coisas para a web
@@ -15,11 +19,15 @@ const About = () => {
           funcionais.
         </p>
 
-        <div className="border-solid border-[#9400ff] max-w-[675px] mx-auto my-3  items-start border-2 rounded-lg">
-          <div className="text-center text-2xl font-poppins text-[#9400ff] ml-6 mr-8 mt-3 mb-3 ">
-            Conheça mais sobre mim!
-          </div>
-        </div>
+        <Link
+          href="/Sobre"
+          passHref
+          className="border-solid border-[#9400ff] max-w-[350px] 
+          mx-auto my-3 items-start border-2 rounded-lg block text-center 
+          text-2xl font-poppins text-[#9400ff] ml-12 mr-8 mt-3 mb-3"
+        >
+          Conheça mais sobre mim!
+        </Link>
         <img
           src="/img/Union.svg"
           alt="rosa"
