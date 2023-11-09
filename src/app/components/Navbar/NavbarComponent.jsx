@@ -28,7 +28,7 @@ const Navbar = () => {
               <span className="text-purple-500">04.</span>Meus Links
             </Link>
             <Link href="/">
-              <button class="inline-flex items-center bg-purple-950 border-0 py-1 px-3 focus:outline-none hover:bg-purple-600 rounded text-base mt-4 md:mt-0 ">
+              <button class="inline-flex items-center bg-purple-700 border-0 py-1 px-3 focus:outline-none hover:bg-purple-600 rounded text-base mt-4 md:mt-0 ">
                 Home
                 <svg
                   fill="none"

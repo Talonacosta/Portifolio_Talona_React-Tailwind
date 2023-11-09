@@ -6,7 +6,7 @@ const About = () => {
   return (
     <>
       <div className="flex flex-col w-full">
-        <h3 className="text-2xl h-6 pl-10">Oi, meu nome é</h3>
+        <h3 className="text-2xl h-6 pl-10 mt-16">Oi, meu nome é</h3>
         <h1 className="font-poppins text-6xl font-medium text-purple-r pl-10">
           Tales Costa.
         </h1>
@@ -24,7 +24,7 @@ const About = () => {
           passHref
           className="border-solid border-[#9400ff] max-w-[350px] 
           mx-auto my-3 items-start border-2 rounded-lg block text-center 
-          text-2xl font-poppins text-[#9400ff] ml-12 mr-8 mt-3 mb-3"
+          text-2xl font-poppins text-[#9400ff] ml-12 mr-8 mt-4 mb-3"
         >
           Conheça mais sobre mim!
         </Link>
@@ -32,8 +32,8 @@ const About = () => {
           src="/img/Union.svg"
           alt="rosa"
           className="self-end"
-          width={400}
-          height={400}
+          width={200}
+          height={200}
         />
       </div>
     </>

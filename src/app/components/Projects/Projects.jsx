@@ -151,11 +151,10 @@ const Projects = () => {
                   </svg>
                 </div>
                 <h2 class="text-lg text-white font-medium title-font mb-2">
-                  Ramona Falls
+                Rede Social para Nicho Específico
                 </h2>
                 <p class="leading-relaxed text-base">
-                  Fingerstache flexitarian street art 8-bit waist co, subway
-                  tile poke farm.
+                Conectando entusiastas em uma comunidade exclusiva através da minha rede social.
                 </p>
               </div>
             </div>
