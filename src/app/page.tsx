@@ -9,12 +9,11 @@ export default async function Home() {
   return (
     <main>
       <div>
-        <Navbar />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
-        <Footer />
+        <Navbar/>
+        <About/>
+        <Skills/>
+        <Projects/>
+        <Footer/>
       </div>
     </main>
   );

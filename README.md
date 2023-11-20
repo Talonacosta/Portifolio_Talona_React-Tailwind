@@ -1,38 +1,36 @@
-# Meu Projeto com Next.js, React e Tailwind CSS
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Este repositório contém o código-fonte do meu projeto desenvolvido com Next.js, React e estilizado com Tailwind CSS.
+## Getting Started
 
-## Visão Geral
+First, run the development server:
 
-Meu projeto é uma aplicação web moderna construída usando as seguintes tecnologias:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-- **Next.js**: Um framework React que oferece renderização do lado do servidor, geração de páginas estáticas e muitos recursos poderosos para desenvolvimento web.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- **React**: Uma biblioteca JavaScript para construir interfaces de usuário interativas e componentes reutilizáveis.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-- **Tailwind CSS**: Um framework de CSS utilitário que torna o design e a estilização de componentes mais eficientes.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Recursos
+## Learn More
 
-- [Página Inicial](#) - Uma visão geral do projeto.
+To learn more about Next.js, take a look at the following resources:
 
-- [Página de Funcionalidades](#) - Descrição das principais funcionalidades da aplicação.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-- [Instalação](#) - Instruções sobre como configurar e executar o projeto localmente.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-- [Uso](#) - Informações sobre como usar a aplicação ou biblioteca.
+## Deploy on Vercel
 
-- [Contribuição](#) - Diretrizes para contribuição, se este projeto for de código aberto.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-- [Licença](#) - Informações sobre a licença do projeto.
-
-## Pré-requisitos
-
-Antes de começar, certifique-se de ter o Node.js instalado. Você pode baixá-lo em [nodejs.org](https://nodejs.org/).
-
-## Instalação
-
-1. Clone este repositório:
-
-   ```bash
-   git clone https://github.com/seu-usuario/seu-projeto.git
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
