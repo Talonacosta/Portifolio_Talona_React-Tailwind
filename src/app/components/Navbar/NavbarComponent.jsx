@@ -1,53 +1,52 @@
-import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-
 
 const Navbar = () => {
   return (
     <>
-    <header>
-      <div className="w-full h-20  top-0">
-        <div className="container mx-auto px-4 h-full">
-          <div className="flex justify-between items-center h-full">
-          <Image
-            src="/img/Union.svg"
-            alt="rosa"
-            width={51}
-            height={47}
-           
-          />
-          <ul className="hidden md:flex gap-x-8 font-roboto">
-       <li>
-                <Link href="/Sobre">
-                  <span className="text-purple-r">01.</span> Sobre Mim
-                </Link>
-              </li>
-              <li>
-                <Link href="/Flores">
-                <span className="text-purple-r">02.</span>Flores
-                </Link>
-              </li>
-              <li>
-                <Link href="/Projetos">
-                <span className="text-purple-r">03.</span>Projetos
-                </Link>
-              </li>
-              <li>
-                <Link href="/Links">
-                <span className="text-purple-r">04.</span>Meus Links
-                </Link>
-              </li>
-              <li>
-                <Link href="/">
-                Home
-                </Link>
-              </li> 
-              
-            </ul>
-          </div>
+      <header>
+        <div className="container mx-auto p-5 flex-col md:flex-row items-center">
+          <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center gap-x-8">
+            <Link href="/Sobre">
+              <span className="text-[#6800B4] text-center font-roboto text-xl font-normal leading-normal tracking-wider">
+                01.
+              </span>{" "}
+              <span className="text-black font-roboto text-xl font-normal leading-normal tracking-wide">
+                PROTIFOLIO
+              </span>
+            </Link>
+            <Link href="/Flores">
+              <span className="text-[#6800B4] text-center font-roboto text-xl font-normal leading-normal tracking-wider">
+                02.
+              </span>{" "}
+              <span className="text-black font-roboto text-xl font-normal leading-normal tracking-wide">
+                RESUME
+              </span>
+            </Link>
+            <a
+              href="/"
+              className="flex title-font font-medium items-center text-black mb-4 md:mb-0"
+            >
+              <Image src="/img/Union.svg" alt="rosa" width={100} height={92} />
+            </a>
+            <Link href="/Projetos">
+              <span className="text-[#6800B4] text-center font-roboto text-xl font-normal leading-normal tracking-wider">
+                03.
+              </span>{" "}
+              <span className="text-black font-roboto text-xl font-normal leading-normal tracking-wide">
+                ABOUT
+              </span>
+            </Link>
+            <Link href="/Links">
+              <span className="text-[#6800B4] text-center font-roboto text-xl font-normal leading-normal tracking-wider">
+                04.
+              </span>{" "}
+              <span className="text-black font-roboto text-xl font-normal leading-normal tracking-wide">
+                CONTACT
+              </span>
+            </Link>
+          </nav>
         </div>
-      </div>
       </header>
     </>
   );
