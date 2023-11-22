@@ -7,7 +7,7 @@ const Navbar = () => {
       <header>
         <div className="container mx-auto p-5 flex-col md:flex-row items-center">
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center gap-x-8">
-            <Link href="/Sobre">
+            <Link href="/">
               <span className="text-[#6800B4] text-center font-roboto text-xl font-normal leading-normal tracking-wider">
                 01.
               </span>{" "}
@@ -15,7 +15,7 @@ const Navbar = () => {
                 PROTIFOLIO
               </span>
             </Link>
-            <Link href="/Flores">
+            <Link href="/Sobre">
               <span className="text-[#6800B4] text-center font-roboto text-xl font-normal leading-normal tracking-wider">
                 02.
               </span>{" "}
