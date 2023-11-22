@@ -4,13 +4,13 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <footer class="text-black  body-font">
+      <footer class="text-white  body-font">
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-          <a class="flex title-font font-medium items-center md:justify-start justify-center text-black">
-            <Image src="/img/Union.svg" alt="rosa" width={35} height={35} />
+          <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+            <Image src="/svgs/Union.svg" alt="rosa" width={35} height={35} />
             <span class="ml-3 text-xl">Talona</span>
           </a>
-          <p class="text-sm text-black sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
+          <p class="text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
             &copy; {new Date().getFullYear()} &middot; Talona —
             <a
               href="https://twitter.com/Talonaa_"
@@ -25,7 +25,7 @@ const Footer = () => {
             <a
               href="mailto:talonacostaa@gmail.com"
               target="_blank"
-              class="text-black"
+              class="text-white"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +41,7 @@ const Footer = () => {
             <a
               href="https://twitter.com/Talonaa_"
               target="_blank"
-              class="ml-3 text-black"
+              class="ml-3 text-white"
             >
               <svg
                 fill="currentColor"
@@ -57,7 +57,7 @@ const Footer = () => {
             <a
               href="https://www.instagram.com/talonaa_/"
               target="_blank"
-              class="ml-3 text-black"
+              class="ml-3 text-white"
             >
               <svg
                 fill="none"
@@ -75,7 +75,7 @@ const Footer = () => {
             <a
               href="https://www.linkedin.com/in/talona-costa/"
               target="_blank"
-              class="ml-3 text-black"
+              class="ml-3 text-white"
             >
               <svg
                 fill="currentColor"
@@ -97,7 +97,7 @@ const Footer = () => {
             <a
               href="https://github.com/Talonacosta"
               target="_blank"
-              class="ml-3 text-black"
+              class="ml-3 text-white"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

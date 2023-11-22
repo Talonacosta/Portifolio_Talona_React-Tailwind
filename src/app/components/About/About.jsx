@@ -1,39 +1,43 @@
-import React from "react";
-import { IoIosArrowDown } from "react-icons/io";
-import Link from "next/link";
+import React from "react"
+
+import Link from "next/link"
 
 const About = () => {
   return (
     <>
-      <div className="flex flex-col items-center justify-center p-32">
-        <h3 className="text-2xl">Oi, meu nome é</h3>
-        <h1 className="font-poppins text-6xl font-medium text-purple-r">
+      <div className="flex flex-col">
+        <h3 className="text-2xl h-6 pl-10 mt-16">Oi, meu nome é</h3>
+        <h1 className="font-poppins text-6xl font-medium text-purple-r pl-10">
           Tales Costa.
         </h1>
-        <h2 className="font-poppins text-4xl text-zinc-700">
+        <h2 className="font-poppins text-4xl left pl-12">
           Eu construo coisas para a web
         </h2>
-        <p className="font-roboto text-1xl text-zinc-700 max-w-lg">
+        <p className="font-roboto text-1xl text-paragraph-bg pl-12 leading-relaxed">
           Sou um desenvolvedor web designer apaixonado por combinar criatividade
           e tecnologia para criar experiências digitais impactantes e
           funcionais.
         </p>
 
-        <Link href="/Sobre" passHref>
-          <button
-            className="mx-auto my-3 bg-[#9400ff] border-none rounded-lg block text-center 
-           text-white text-2xl font-poppins ml-12 mr-8 mt-4 mb-3 p-3"
+        <div className="flex justify-start pl-12">
+          <a
+            href="https://portifolio-talona.vercel.app/"
+            className="rounded bg-purple-r my-4 px-8 py-4 font-medium text-black transition duration-200 
+    hover:bg-purple-600 active:bg-purple-700 text-xl text-center max-w-screen-md"
           >
-            Conheça mais!
-          </button>
-        </Link>
-
-        <div className="pt-6">
-          <IoIosArrowDown size={24} className="mx-auto" />
+            Meu Portifolio!
+          </a>
         </div>
+        <img
+          src="/svgs/Union.svg"
+          alt="rosa"
+          className="self-end"
+          width={200}
+          height={200}
+        />
       </div>
     </>
-  );
-};
+  )
+}
 
-export default About;
+export default About
