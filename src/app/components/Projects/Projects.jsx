@@ -1,170 +1,203 @@
+
 const Projects = () => {
   return (
-    <>
-      <section class="text-gray-400 body-font">
-        <div class="container px-5 py-24 mx-auto">
-          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-purple-r">
-              Um pouco da minha experiencia
-            </h1>
-            <p class="lg:w-1/2 w-full leading-relaxed text-opacity-80">
-              Meus trabalhos públicos abrangem diversas áreas, de tecnologia a
-              desenvolvimento social. Busco impacto positivo e soluções
-              criativas em cada projeto.
-            </p>
-          </div>
-          <div class="flex flex-wrap -m-4">
-            <div class="xl:w-1/3 md:w-1/2 p-4">
-              <div class="border border-gray-700 border-opacity-75 p-6 rounded-lg">
-                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-zinc-200 text-purple-r mb-4">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-6 h-6"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+    <div class="bg-white py-6 sm:py-8 lg:py-24">
+    <div class="mx-auto max-w-screen-xl px-4 md:px-8">
+      <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-8 lg:text-3xl xl:mb-12">Meus Maiores Projetos Publicos</h2>
+  
+      <div class="mb-6 grid gap-6 sm:grid-cols-2 md:mb-8 lg:grid-cols-3 lg:gap-8">
+
+        <div class="flex flex-col overflow-hidden rounded-lg border sm:mt-8">
+          <div class="h-2 bg-black"></div>
+  
+          <div class="flex flex-1 flex-col p-6 pt-8">
+            <div class="mb-12">
+              <div class="mb-2 text-center text-2xl font-bold text-gray-800">Spotify UI</div>
+  
+              <p class="mb-8 px-8 text-center text-gray-500">For individuals and organizations who want to try our system</p>
+  
+              <div class="space-y-4">
+      
+                <div class="flex items-center gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 shrink-0" fill="none" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="8" fill="currentColor" class="text-gray-300" />
+                    <circle cx="8" cy="8" r="3" fill="currentColor" class="text-gray-500" />
                   </svg>
+  
+                  <span class="text-gray-600">1.000 MB file storage</span>
                 </div>
-                <h2 class="text-lg text-white font-medium title-font mb-2">
-                  E-commerce
-                </h2>
-                <p class="leading-relaxed text-base">
-                  Uma plataforma e-commerce inovadora, conectando clientes e
-                  produtos exclusivos.
-                </p>
+              
+                <div class="flex items-center gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 shrink-0" fill="none" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="8" fill="currentColor" class="text-gray-300" />
+                    <circle cx="8" cy="8" r="3" fill="currentColor" class="text-gray-500" />
+                  </svg>
+  
+                  <span class="text-gray-600">2.000 MB bandwidth per month</span>
+                </div>
+             
+                <div class="flex items-center gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 shrink-0" fill="none" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="8" fill="currentColor" class="text-gray-300" />
+                    <circle cx="8" cy="8" r="3" fill="currentColor" class="text-gray-500" />
+                  </svg>
+  
+                  <span class="text-gray-600">200 tasks per month</span>
+                </div>
+              
+      
+                <div class="flex items-center gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 shrink-0" fill="none" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="8" fill="currentColor" class="text-gray-300" />
+                    <circle cx="8" cy="8" r="3" fill="currentColor" class="text-gray-500" />
+                  </svg>
+  
+                  <span class="text-gray-600">Comunity support</span>
+                </div>
+           
               </div>
             </div>
-            <div class="xl:w-1/3 md:w-1/2 p-4">
-              <div class="border border-gray-700 border-opacity-75 p-6 rounded-lg">
-                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-zinc-200 text-purple-r mb-4">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-6 h-6"
-                    viewBox="0 0 24 24"
-                  >
-                    <circle cx="6" cy="6" r="3"></circle>
-                    <circle cx="6" cy="18" r="3"></circle>
-                    <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
-                  </svg>
-                </div>
-                <h2 class="text-lg text-white font-medium title-font mb-2">
-                  Dashboards
-                </h2>
-                <p class="leading-relaxed text-base">
-                  Dashboards intuitivos, transformando dados complexos em
-                  insights acionáveis e visuais.
-                </p>
-              </div>
-            </div>
-            <div class="xl:w-1/3 md:w-1/2 p-4">
-              <div class="border border-gray-700 border-opacity-75 p-6 rounded-lg">
-                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-zinc-200 text-purple-r mb-4">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-6 h-6"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                    <circle cx="12" cy="7" r="4"></circle>
-                  </svg>
-                </div>
-                <h2 class="text-lg text-white font-medium title-font mb-2">
-                  Portifolio
-                </h2>
-                <p class="leading-relaxed text-base">
-                  Portfólio reflete uma jornada criativa e técnica única.
-                </p>
-              </div>
-            </div>
-            <div class="xl:w-1/3 md:w-1/2 p-4">
-              <div class="border border-gray-700 border-opacity-75 p-6 rounded-lg">
-                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-zinc-200 text-purple-r mb-4">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-6 h-6"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"></path>
-                  </svg>
-                </div>
-                <h2 class="text-lg text-white font-medium title-font mb-2">
-                  Blog Pessoal
-                </h2>
-                <p class="leading-relaxed text-base">
-                  Explore um universo pessoal e paixões através de um blog.
-                </p>
-              </div>
-            </div>
-            <div class="xl:w-1/3 md:w-1/2 p-4">
-              <div class="border border-gray-700 border-opacity-75 p-6 rounded-lg">
-                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-zinc-200 text-purple-r mb-4">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-6 h-6"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
-                  </svg>
-                </div>
-                <h2 class="text-lg text-white font-medium title-font mb-2">
-                  Gerenciamento de Tarefas
-                </h2>
-                <p class="leading-relaxed text-base">
-                  Otimize sua produtividade com meu aplicativo de gerenciamento
-                  de tarefas.
-                </p>
-              </div>
-            </div>
-            <div class="xl:w-1/3 md:w-1/2 p-4">
-              <div class="border border-gray-700 border-opacity-75 p-6 rounded-lg">
-                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-zinc-200 text-purple-r mb-4">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-6 h-6"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                  </svg>
-                </div>
-                <h2 class="text-lg text-white font-medium title-font mb-2">
-                Rede Social para Nicho Específico
-                </h2>
-                <p class="leading-relaxed text-base">
-                Conectando entusiastas em uma comunidade exclusiva através da minha rede social.
-                </p>
-              </div>
+  
+            <div class="mt-auto">
+              <a href="#" class="block rounded-lg bg-gray-200 px-8 py-3 text-center text-sm font-semibold text-gray-500 outline-none ring-purple-300 transition duration-100 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base">link do repositorio</a>
             </div>
           </div>
-          <button class="flex mx-auto mt-16 text-white bg-purple-700 border-0 py-2 px-8 focus:outline-none hover:bg-purple-600 rounded text-lg">
-            Mais
-          </button>
         </div>
-      </section>
-    </>
+     
+        <div class="flex flex-col overflow-hidden rounded-lg border-2 border-purple-500">
+          <div class="bg-purple-500 py-2 text-center text-sm font-semibold uppercase tracking-widest text-white">Maior projeto</div>
+  
+          <div class="flex flex-1 flex-col p-6 pt-8">
+            <div class="mb-12">
+              <div class="mb-2 text-center text-2xl font-bold text-gray-800">E-Commerce</div>
+  
+              <p class="mx-auto mb-8 px-8 text-center text-gray-500">Avanced feaures for Individuals and organizations</p>
+  
+              <div class="space-y-4">
+         
+                <div class="flex items-center gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 shrink-0" fill="none" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="8" fill="currentColor" class="text-gray-300" />
+                    <circle cx="8" cy="8" r="3" fill="currentColor" class="text-gray-500" />
+                  </svg>
+  
+                  <span class="text-gray-600">Unlimited file storage</span>
+                </div>
+             
+                <div class="flex items-center gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 shrink-0" fill="none" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="8" fill="currentColor" class="text-gray-300" />
+                    <circle cx="8" cy="8" r="3" fill="currentColor" class="text-gray-500" />
+                  </svg>
+  
+                  <span class="text-gray-600">10 GB bandwidth per month</span>
+                </div>
+              
+                <div class="flex items-center gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 shrink-0" fill="none" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="8" fill="currentColor" class="text-gray-300" />
+                    <circle cx="8" cy="8" r="3" fill="currentColor" class="text-gray-500" />
+                  </svg>
+  
+                  <span class="text-gray-600">10.000 tasks per month</span>
+                </div>
+              
+                <div class="flex items-center gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 shrink-0" fill="none" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="8" fill="currentColor" class="text-gray-300" />
+                    <circle cx="8" cy="8" r="3" fill="currentColor" class="text-gray-500" />
+                  </svg>
+  
+                  <span class="text-gray-600">Email support</span>
+                </div>
+              
+                <div class="flex items-center gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 shrink-0" fill="none" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="8" fill="currentColor" class="text-gray-300" />
+                    <circle cx="8" cy="8" r="3" fill="currentColor" class="text-gray-500" />
+                  </svg>
+  
+                  <span class="text-gray-600">100 Webhooks</span>
+                </div>
+             
+              </div>
+            </div>
+  
+            <div class="mt-auto">
+              <a href="#" class="block rounded-lg bg-purple-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-purple-300 transition duration-100 hover:bg-purple-600 focus-visible:ring active:bg-purple-700 md:text-base">link do repositorio</a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="flex flex-col overflow-hidden rounded-lg border lg:mt-8">
+          <div class="h-2 bg-gray-800"></div>
+  
+          <div class="flex flex-1 flex-col p-6 pt-8">
+            <div class="mb-12">
+              <div class="mb-2 text-center text-2xl font-bold text-gray-800">Café com Código</div>
+  
+              <p class="mx-auto mb-8 px-8 text-center text-gray-500">Maximum performace for organisations</p>
+  
+              <div class="space-y-4">
+           
+                <div class="flex items-center gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 shrink-0" fill="none" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="8" fill="currentColor" class="text-gray-300" />
+                    <circle cx="8" cy="8" r="3" fill="currentColor" class="text-gray-500" />
+                  </svg>
+  
+                  <span class="text-gray-600">Unlimited file storage</span>
+                </div>
+             
+                <div class="flex items-center gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 shrink-0" fill="none" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="8" fill="currentColor" class="text-gray-300" />
+                    <circle cx="8" cy="8" r="3" fill="currentColor" class="text-gray-500" />
+                  </svg>
+  
+                  <span class="text-gray-600">Unlimited bandwidth per month</span>
+                </div>
+                
+                <div class="flex items-center gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 shrink-0" fill="none" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="8" fill="currentColor" class="text-gray-300" />
+                    <circle cx="8" cy="8" r="3" fill="currentColor" class="text-gray-500" />
+                  </svg>
+  
+                  <span class="text-gray-600">1.000.000 tasks per month</span>
+                </div>
+               
+                <div class="flex items-center gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 shrink-0" fill="none" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="8" fill="currentColor" class="text-gray-300" />
+                    <circle cx="8" cy="8" r="3" fill="currentColor" class="text-gray-500" />
+                  </svg>
+  
+                  <span class="text-gray-600">Email and phone support</span>
+                </div>
+               
+                <div class="flex items-center gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 shrink-0" fill="none" viewBox="0 0 16 16">
+                    <circle cx="8" cy="8" r="8" fill="currentColor" class="text-gray-300" />
+                    <circle cx="8" cy="8" r="3" fill="currentColor" class="text-gray-500" />
+                  </svg>
+  
+                  <span class="text-gray-600">Unlimited Webhooks</span>
+                </div>
+             
+              </div>
+            </div>
+  
+            <div class="mt-auto">
+              <a href="#" class="block rounded-lg bg-gray-800 px-8 py-3 text-center text-sm font-semibold text-white 
+              outline-none ring-indigo-300 transition duration-100 hover:bg-gray-700 focus-visible:ring active:bg-gray-600 md:text-base">link do repositorio</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
   );
 };
 

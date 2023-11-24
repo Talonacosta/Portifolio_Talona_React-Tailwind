@@ -27,7 +27,7 @@ const Navbar = () => {
               href="/"
               className="flex title-font font-medium items-center text-black mb-4 md:mb-0"
             >
-              <Image src="/img/Union.svg" alt="rosa" width={100} height={92} />
+              <Image src="/img/Union.svg" alt="rosa" width={50} height={12} />
             </a>
             <Link href="/Projetos">
               <span className="text-[#6800B4] text-center font-roboto text-xl font-normal leading-normal tracking-wider">
@@ -37,7 +37,7 @@ const Navbar = () => {
                 ABOUT
               </span>
             </Link>
-            <Link href="/Links">
+            <Link href="/Links" >
               <span className="text-[#6800B4] text-center font-roboto text-xl font-normal leading-normal tracking-wider">
                 04.
               </span>{" "}

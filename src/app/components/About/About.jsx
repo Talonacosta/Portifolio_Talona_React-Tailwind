@@ -1,4 +1,6 @@
-import React from "react"
+"use client";
+
+import React, { useState } from "react"
 import { IoIosArrowDown } from "react-icons/io"
 import Link from "next/link"
 
@@ -23,7 +25,7 @@ const About = () => {
             className="mx-auto my-8 bg-[#9400ff] border-none rounded-lg text-center flex
       text-white text-2xl font-poppins p-4"
           >
-            Meu blog!
+           Conheça meu blog!
           </button>
         </Link>
 

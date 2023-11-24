@@ -20,11 +20,11 @@ const Skills = () => {
       </h2>
       <div className="flex flex-wrap justify-center mt-12">
         {skillsData.map(({ icon: Icon, name }, index) => (
-          <div key={index} className="text-center mx-2 my-2 w-20">
-            <div className="w-20 h-20 bg-white border-2 border-black rounded-full flex items-center justify-center">
-              <Icon size={20} />
+          <div key={index} className="text-center mx-2 my-2 w-24">
+            <div className="w-24 h-24 bg-white border-2 border-black rounded-full flex items-center justify-center">
+              <Icon color='#9400FF' size={45} />
             </div>
-            <div className="mt-2">{name}</div>
+            <div className="mt-2 font-poppis text-xl">{name}</div>
           </div>
         ))}
       </div>
