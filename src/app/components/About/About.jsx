@@ -1,8 +1,8 @@
 "use client";
 
-import React, { useState } from "react"
-import { IoIosArrowDown } from "react-icons/io"
-import Link from "next/link"
+import React, { useState } from "react";
+import { IoIosArrowDown } from "react-icons/io";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -15,17 +15,17 @@ const About = () => {
         <h2 className="font-poppins text-4xl text-zinc-700">
           Eu construo coisas para a web
         </h2>
-        <p className="font-roboto text-1xl text-zinc-700 max-w-lg text-center">
+        <p className="text-1xl max-w-lg text-center font-roboto text-zinc-700">
           Sou um desenvolvedor web designer apaixonado por combinar criatividade
           e tecnologia para criar experiências digitais impactantes.
         </p>
 
         <Link href="/Sobre" passHref>
           <button
-            className="mx-auto my-8 bg-[#9400ff] border-none rounded-lg text-center flex
-      text-white text-2xl font-poppins p-4"
+            className="font-poppins mx-auto my-8 flex rounded-lg border-none bg-[#9400ff]
+      p-4 text-center text-2xl text-white"
           >
-           Conheça meu blog!
+            Conheça meu blog!
           </button>
         </Link>
 
@@ -34,7 +34,7 @@ const About = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default About
+export default About;

@@ -16,8 +16,11 @@ const customFontRoboto = Roboto({
 
 
 export const metadata = {
-  title: "Talona",
-  description: "Portifolio Talona",
+  title: "Talona - Design e Desenvolvimento Web",
+  description: "Explore nosso portfólio para experiências web excepcionais. Contate-nos para colaborações inovadoras!",
+  keywords: "design web, desenvolvimento web, portfólio, inovação",
+  author: "Seu Nome",
+  ogImage: "URL_DA_IMAGEM_PARA_REDES_SOCIAIS",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

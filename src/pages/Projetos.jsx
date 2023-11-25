@@ -5,12 +5,9 @@ const Projetos = () => {
   return (
     <div>
       <Navbar />
-      <h1 className="text-3xl text-purple-r font-poppis text-center m-auto">
+      <h1 className="m-auto text-center font-poppis text-3xl text-purple-r">
         Aqui estão meu projetos{" "}
       </h1>
-
-     
-     
     </div>
   );
 };

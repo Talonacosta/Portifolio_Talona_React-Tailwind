@@ -5,43 +5,43 @@ const Navbar = () => {
   return (
     <>
       <header>
-        <div className="container mx-auto p-5 flex-col md:flex-row items-center">
-          <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center gap-x-8">
+        <div className="container mx-auto flex-col items-center p-5 md:flex-row">
+          <nav className="flex flex-wrap items-center justify-center gap-x-8 text-base md:ml-auto">
             <Link href="/">
-              <span className="text-[#6800B4] text-center font-roboto text-xl font-normal leading-normal tracking-wider">
+              <span className="text-center font-roboto text-xl font-normal leading-normal tracking-wider text-[#6800B4]">
                 01.
               </span>{" "}
-              <span className="text-black font-roboto text-xl font-normal leading-normal tracking-wide">
+              <span className="font-roboto text-xl font-normal leading-normal tracking-wide text-black">
                 PROTIFOLIO
               </span>
             </Link>
             <Link href="/Sobre">
-              <span className="text-[#6800B4] text-center font-roboto text-xl font-normal leading-normal tracking-wider">
+              <span className="text-center font-roboto text-xl font-normal leading-normal tracking-wider text-[#6800B4]">
                 02.
               </span>{" "}
-              <span className="text-black font-roboto text-xl font-normal leading-normal tracking-wide">
+              <span className="font-roboto text-xl font-normal leading-normal tracking-wide text-black">
                 RESUME
               </span>
             </Link>
             <a
               href="/"
-              className="flex title-font font-medium items-center text-black mb-4 md:mb-0"
+              className="title-font mb-4 flex items-center font-medium text-black md:mb-0"
             >
               <Image src="/img/Union.svg" alt="rosa" width={50} height={12} />
             </a>
             <Link href="/Projetos">
-              <span className="text-[#6800B4] text-center font-roboto text-xl font-normal leading-normal tracking-wider">
+              <span className="text-center font-roboto text-xl font-normal leading-normal tracking-wider text-[#6800B4]">
                 03.
               </span>{" "}
-              <span className="text-black font-roboto text-xl font-normal leading-normal tracking-wide">
+              <span className="font-roboto text-xl font-normal leading-normal tracking-wide text-black">
                 ABOUT
               </span>
             </Link>
-            <Link href="/Links" >
-              <span className="text-[#6800B4] text-center font-roboto text-xl font-normal leading-normal tracking-wider">
+            <Link href="/Links">
+              <span className="text-center font-roboto text-xl font-normal leading-normal tracking-wider text-[#6800B4]">
                 04.
               </span>{" "}
-              <span className="text-black font-roboto text-xl font-normal leading-normal tracking-wide">
+              <span className="font-roboto text-xl font-normal leading-normal tracking-wide text-black">
                 CONTACT
               </span>
             </Link>
