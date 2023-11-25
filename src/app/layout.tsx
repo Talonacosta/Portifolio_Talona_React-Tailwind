@@ -1,5 +1,6 @@
 import { Poppins, Roboto } from "next/font/google";
 import "./globals.css";
+import Head from 'next/head';
 import { ReactNode } from "react";
 
 const customFontPoppins = Poppins({
@@ -16,22 +17,28 @@ const customFontRoboto = Roboto({
 
 
 export const metadata = {
-  title: "Talona - Design e Desenvolvimento Web",
-  description: "Explore nosso portfólio para experiências web excepcionais. Contate-nos para colaborações inovadoras!",
-  keywords: "design web, desenvolvimento web, portfólio, inovação",
-  author: "Seu Nome",
-  ogImage: "URL_DA_IMAGEM_PARA_REDES_SOCIAIS",
+  title: 'Talona - Design e Desenvolvimento Web',
+  description: 'Explore meu portfólio para experiências web excepcionais. Contate-nos para colaborações inovadoras!',
+  keywords: 'design web, desenvolvimento web, portfólio, inovação ,Talona ,talona',
+  author: 'Tales Costa',
+  ogImage: '',
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html
-      lang="pt-BR"
-      className={`${customFontPoppins.variable} ${customFontRoboto.variable}`}>
-      <body>
-      
-        {children}
-      </body>
-    </html>
+    <>
+      <Head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+        <meta name="keywords" content={metadata.keywords} />
+        <meta name="author" content={metadata.author} />
+        <meta property="og:image" content={metadata.ogImage} />
+      </Head>
+      <html lang="pt-BR" className={`${customFontPoppins.variable} ${customFontRoboto.variable}`}>
+        <body>
+          {children}
+        </body>
+      </html>
+    </>
   );
 }
