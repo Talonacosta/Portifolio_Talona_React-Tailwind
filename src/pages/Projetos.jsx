@@ -5,7 +5,6 @@ const Projetos = () => {
   return (
     <div>
       <Navbar />
-
       <h1 className="text-center mb-4 text-2xl font-bold text-gray-700">
         Buscando simplicidade, intenção e humanidade em todas as coisas
       </h1>

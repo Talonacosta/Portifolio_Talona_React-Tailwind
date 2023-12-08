@@ -31,7 +31,7 @@ const Skills = () => {
         {skillsData.map(({ icon: Icon, name }, index) => (
           <div key={index} className="mx-2 my-2 w-24 text-center">
             <div className="flex h-24 w-24 items-center justify-center rounded-full border-2 border-black bg-white">
-              <Icon color="#9400FF" size={45} />
+              <Icon color="#9400FF" size={40} />
             </div>
             <div className="mt-2 font-poppis text-xl">{name}</div>
           </div>

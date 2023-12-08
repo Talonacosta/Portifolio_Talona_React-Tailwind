@@ -8,7 +8,7 @@ const Projects = () => {
 
         <div class="mb-6 grid gap-6 sm:grid-cols-2 md:mb-8 lg:grid-cols-3 lg:gap-8">
           <div class="flex flex-col overflow-hidden rounded-lg border sm:mt-8">
-            <div class="h-2 bg-black"></div>
+            <div class="h-2 bg-yellow-500"></div>
 
             <div class="flex flex-1 flex-col p-6 pt-8">
               <div class="mb-12">
@@ -131,7 +131,7 @@ const Projects = () => {
 
               <div class="mt-auto">
                 <a
-                  href="#"
+                  href="https://github.com/Talonacosta/Eternizar-videos"
                   class="block rounded-lg bg-gray-200 px-8 py-3 text-center text-sm font-semibold text-gray-500 outline-none ring-purple-300 transition duration-100 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base"
                 >
                   link do repositorio
@@ -152,7 +152,9 @@ const Projects = () => {
                 </div>
 
                 <p class="mx-auto mb-8 px-8 text-center text-gray-500">
-                  Avanced feaures for Individuals and organizations
+                  Elevate your online business with our comprehensive E-Commerce
+                  package, offering advanced features for both individuals and
+                  organizations.
                 </p>
 
                 <div class="space-y-4">
@@ -290,7 +292,7 @@ const Projects = () => {
 
               <div class="mt-auto">
                 <a
-                  href="#"
+                  href="https://github.com/Talonacosta/Estudos-Ecommerce"
                   class="block rounded-lg bg-purple-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-purple-300 transition duration-100 hover:bg-purple-600 focus-visible:ring active:bg-purple-700 md:text-base"
                 >
                   link do repositorio
@@ -300,7 +302,7 @@ const Projects = () => {
           </div>
 
           <div class="flex flex-col overflow-hidden rounded-lg border lg:mt-8">
-            <div class="h-2 bg-gray-800"></div>
+            <div class="h-2 bg-yellow-500"></div>
 
             <div class="flex flex-1 flex-col p-6 pt-8">
               <div class="mb-12">
@@ -449,7 +451,7 @@ const Projects = () => {
 
               <div class="mt-auto">
                 <a
-                  href="#"
+                  href="https://github.com/Talonacosta/CoffeComCodigo"
                   class="block rounded-lg bg-gray-800 px-8 py-3 text-center text-sm font-semibold text-white 
               outline-none ring-indigo-300 transition duration-100 hover:bg-gray-700 focus-visible:ring active:bg-gray-600 md:text-base"
                 >
